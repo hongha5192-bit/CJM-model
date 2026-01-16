@@ -1,0 +1,14 @@
+{
+  "lambda": 0.1,
+  "mean_bac": 1.0,
+  "method": "simplified_clustering",
+  "n_simulations": 30,
+  "features": [
+    "ADX",
+    "URSI",
+    "BBWP",
+    "BB_PCTB",
+    "URSI_0_50",
+    "URSI_0_20"
+  ]
+}

@@ -1,0 +1,40 @@
+data:
+  path: data/vnindex_full.csv
+  date_col: TRADINGDATE
+  close_col: CLOSEINDEX
+  start: "2018-01-01"
+  end: "2025-12-31"
+
+features:
+  # Your selected features: ADX, URSI, BBWP, and market breadth indicators
+  cols: ["ADX", "URSI", "BBWP", "BB_PCTB", "URSI_0_50", "URSI_0_20"]
+
+hmm:
+  K: 2
+  seed: 123
+  n_iter: 2000
+  covariance_type: "diag"
+  transmat_prior: 1.00000001   # = 1 + 1e-8 (paper/MD detail)
+
+simulation:
+  N_sim: 1024
+  T: 1000
+  seed0: 1000
+  file_format: "parquet"
+
+lambda_scan:
+  lambda_grid:
+    log10_min: -2
+    log10_max: 5
+    n_grid: 29
+  jumpmodels:
+    n_init: 10
+    max_iter: 1000
+    tol: 1e-8
+  cjm:
+    grid_size: 0.01
+    mode_loss: true
+
+apply:
+  K: 2
+  model_type: "CJM_mode"   # CJM with mode loss for final output

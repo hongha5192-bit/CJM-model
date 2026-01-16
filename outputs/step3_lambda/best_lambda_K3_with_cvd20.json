@@ -1,0 +1,18 @@
+{
+  "lambda": 1.0,
+  "mean_bac": 0.5371307684189132,
+  "std_bac": 0.03096484399281331,
+  "features": [
+    "ADX",
+    "DMI_Plus",
+    "DMI_Minus",
+    "URSI",
+    "BB_PCTB",
+    "BBWP",
+    "URSI_0_50",
+    "URSI_0_20",
+    "CVD_20"
+  ],
+  "n_features": 9,
+  "n_simulations": 50
+}

@@ -1,0 +1,18 @@
+{
+  "lambda": 0.1,
+  "mean_bac": 1.0,
+  "std_bac": 0.0,
+  "K": 3,
+  "grid_size": 0.05,
+  "n_simulations": 20,
+  "model_type": "CJM_mode",
+  "features": [
+    "ADX",
+    "URSI",
+    "BBWP",
+    "BB_PCTB",
+    "URSI_0_50",
+    "URSI_0_20"
+  ],
+  "method": "quick_empirical"
+}

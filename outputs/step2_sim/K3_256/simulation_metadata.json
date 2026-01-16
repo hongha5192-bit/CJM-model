@@ -1,0 +1,17 @@
+{
+  "N_sim": 256,
+  "T": 1000,
+  "K": 3,
+  "features": [
+    "ADX",
+    "URSI",
+    "BBWP",
+    "BB_PCTB",
+    "URSI_0_50",
+    "URSI_0_20"
+  ],
+  "successful": 256,
+  "failed": 0,
+  "elapsed_seconds": 6.596071004867554,
+  "timestamp": "2026-01-05T15:56:42.742429"
+}

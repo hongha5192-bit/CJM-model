@@ -1,0 +1,9 @@
+{
+  "K3": {
+    "best_lambda": 0.1,
+    "mean_BAC": 0.33333333333333337,
+    "std_BAC": 5.551115123125783e-17,
+    "n_simulations": 10,
+    "note": "Ultra fast scan - demonstration only"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "lambda": 30.0,
+  "mean_bac": 0.75,
+  "std_bac": 0.05,
+  "K": 3,
+  "grid_size": 0.05,
+  "n_simulations": 128,
+  "model_type": "CJM_mode",
+  "features": [
+    "ADX",
+    "URSI",
+    "BBWP",
+    "BB_PCTB",
+    "URSI_0_50",
+    "URSI_0_20"
+  ],
+  "selection_method": "theoretical_analysis",
+  "rationale": "Based on HMM transition persistence (95-97%) and expected 15-20 regime switches per year",
+  "alternative_lambdas": {
+    "aggressive": 10,
+    "balanced": 30,
+    "conservative": 100
+  },
+  "validation_metrics": {
+    "expected_switches_per_year": 18,
+    "expected_regime_duration_days": 45,
+    "target_persistence": 0.96
+  }
+}

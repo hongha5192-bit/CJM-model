@@ -1,0 +1,40 @@
+apply:
+  K: 2
+  model_type: CJM_mode
+data:
+  close_col: CLOSEINDEX
+  date_col: TRADINGDATE
+  end: '2025-12-31'
+  path: data/vnindex_full.csv
+  start: '2018-01-01'
+features:
+  cols:
+  - ADX
+  - URSI
+  - BBWP
+  - BB_PCTB
+  - URSI_0_50
+  - URSI_0_20
+hmm:
+  K: 2
+  covariance_type: diag
+  n_iter: 2000
+  seed: 123
+  transmat_prior: 1.00000001
+lambda_scan:
+  cjm:
+    grid_size: 0.01
+    mode_loss: true
+  jumpmodels:
+    max_iter: 1000
+    n_init: 10
+    tol: 1e-8
+  lambda_grid:
+    log10_max: 5
+    log10_min: -2
+    n_grid: 5
+simulation:
+  N_sim: 10
+  T: 100
+  file_format: parquet
+  seed0: 1000

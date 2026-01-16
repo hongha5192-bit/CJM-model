@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+
+# Outputs (but keep structure)
+outputs/step1_hmm/*.csv
+outputs/step2_sim/*.csv
+outputs/step3_lambda/*.csv
+outputs/step1_hmm/*.png
+outputs/step2_sim/*.png
+outputs/step3_lambda/*.png
+outputs/*.png
+!outputs/.gitkeep
+!outputs/*/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Keep important CSV files
+!data/vnindex_full.csv
+!data/vnindex_features_cleaned.csv

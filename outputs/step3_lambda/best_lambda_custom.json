@@ -1,0 +1,22 @@
+{
+  "K3": {
+    "CJM_mode": {
+      "lambda": 5.0,
+      "mean_bac": 0.967291070752983,
+      "std_bac": 0.08581384478001484,
+      "n_simulations": 100,
+      "max_iterations": 500,
+      "lambda_values_tested": [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        50,
+        100
+      ],
+      "simulation_dir": "outputs/step2_sim/K3_512_corrected"
+    }
+  }
+}

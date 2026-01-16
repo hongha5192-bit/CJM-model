@@ -1,0 +1,53 @@
+# Configuration for K=3 CJM Pipeline with Fast Mode for Mac Air M4
+
+data:
+  path: data/vnindex_full.csv
+  date_col: TRADINGDATE
+  close_col: CLOSEINDEX
+  start: "2018-01-01"
+  end: "2025-12-31"
+
+features:
+  # Your selected features
+  cols: ["ADX", "URSI", "BBWP", "BB_PCTB", "URSI_0_50", "URSI_0_20"]
+
+hmm:
+  K: 3  # Three regimes
+  seed: 123
+  n_iter: 2000
+  covariance_type: "diag"
+  transmat_prior: 1.00000001  # 1 + 1e-8 for numerical stability
+
+simulation:
+  # Mac Air M4 optimized settings
+  N_sim: 128  # Reduced to 128 for feasibility on Mac Air M4
+  T: 1000
+  seed0: 1000
+  file_format: "parquet"
+
+lambda_scan:
+  lambda_grid:
+    log10_min: -2
+    log10_max: 5
+    n_grid: 11  # Reduced to 11 points for Mac Air M4
+
+  # Mac Air M4 optimizations
+  jumpmodels:
+    n_init: 3  # Keep at 3 for speed
+    max_iter: 200  # Reduced to 200 for faster convergence
+    tol: 1e-5  # Relaxed tolerance from 1e-6
+    n_jobs: 2  # Reduced to 2 - often faster on Mac Air M4
+
+  cjm:
+    grid_size: 0.05  # Important for K=3
+    mode_loss: true
+
+apply:
+  K: 3
+  model_type: "CJM_mode"
+  n_init: 10  # Keep at 10 for final real data fit (robustness)
+  max_iter: 1000
+  tol: 1e-8
+
+# Fast mode toggle
+fast_mode: true

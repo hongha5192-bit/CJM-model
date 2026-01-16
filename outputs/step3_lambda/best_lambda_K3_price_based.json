@@ -1,0 +1,18 @@
+{
+  "lambda": 50.0,
+  "mean_bac": 0.5048283071341343,
+  "std_bac": 0.045014381847026934,
+  "K": 3,
+  "grid_size": 0.05,
+  "n_simulations": 10,
+  "model_type": "CJM_mode",
+  "features": [
+    "ADX",
+    "DMI_Plus",
+    "DMI_Minus",
+    "URSI",
+    "BB_PCTB",
+    "BBWP"
+  ],
+  "simulation_type": "price_based"
+}
