@@ -1,0 +1,11 @@
+{
+  "lambda": 5.0,
+  "n_simulations": 10,
+  "n_successful": 10,
+  "n_failed": 0,
+  "bac_mean": 0.9973716747608954,
+  "bac_median": 0.9970295432093179,
+  "bac_std": 0.0018424604273144136,
+  "bac_min": 0.9945750763941553,
+  "bac_max": 1.0
+}
