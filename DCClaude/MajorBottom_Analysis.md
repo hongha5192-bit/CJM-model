@@ -1,28 +1,77 @@
 # Major Bottom — Complete Analysis & Stock Selection
 
 Data as of 2026-03-27 | VNINDEX: 1,673 | Top 200 stocks by market cap
-Major Bottom Dates: 11/7/2018, 3/1/2019, 31/3/2020, 28/1/2021, 19/7/2021, 16/5/2022, 15/11/2022, 31/10/2023, 9/4/2025
+Major Bottom Dates: 11/7/2018, 3/1/2019, 16/3/2020, 31/3/2020, 28/1/2021, 19/7/2021, 16/5/2022, 15/11/2022, 31/10/2023, 9/4/2025
 
 ---
 
 ## Current Market Breadth vs Historical Bottoms
 
-### Indicator Readings (% of stocks)
+### Complete Breadth Table — All Major Bottoms + 23 Mar 2026
 
-| Date | VNI | URSI<=20 | BB<Lower | BB256<Low | DD>=20% | DD>=15% | <EMA200 |
-|---|---|---|---|---|---|---|---|
-| 2018-07-11 | 893 | 41.6% | 8.4% | 0.0% | 63.6% | 74.7% | 84.4% |
-| 2019-01-03 | 878 | 26.9% | 19.2% | 0.0% | 32.7% | 49.4% | 64.1% |
-| 2020-03-31 | 663 | 63.8% | 8.6% | 40.5% | 76.1% | 84.7% | 90.8% |
-| 2021-01-28 | 1,024 | 8.4% | 65.7% | 0.0% | 49.4% | 72.5% | 27.0% |
-| 2021-07-19 | 1,244 | 12.6% | 22.0% | 0.5% | 40.7% | 63.7% | 29.1% |
-| 2022-05-16 | 1,172 | 62.8% | 32.4% | 14.9% | 77.7% | 86.7% | 81.4% |
-| 2022-11-15 | 912 | 67.2% | 49.2% | 26.5% | 79.9% | 86.8% | 92.1% |
-| 2023-10-31 | 1,028 | 45.7% | 45.2% | 4.8% | 53.7% | 74.5% | 77.7% |
-| 2025-04-09 | 1,094 | 66.7% | 76.6% | 34.9% | 69.3% | 86.5% | 84.4% |
-| **NOW** | **1,673** | **6.5%** | **1.0%** | **2.0%** | **36.5%** | **52.0%** | **57.5%** |
+| Date | VNI | URSI<=20 | BB<Low | BB256<L | DD>=20% | DD>=15% | <EMA200 | PE_p<=20 | PB<1 |
+|---|---|---|---|---|---|---|---|---|---|
+| **Jul-18** | 893 | 42% | 8% | 0% | 64% | 75% | 85% | n/a | 45 |
+| **Jan-19** | 878 | 27% | 19% | 0% | 33% | 49% | 63% | n/a | 43 |
+| **16-Mar-20** | **748** | **52%** | **44%** | **29%** | **66%** | **80%** | **85%** | **76%** | **69** |
+| 31-Mar-20 | 663 | 64% | 9% | 40% | 76% | 85% | 90% | 76% | 83 |
+| Jan-21 | 1,024 | 8% | 66% | 0% | 49% | 72% | 27% | 17% | 40 |
+| Jul-21 | 1,244 | 13% | 22% | 1% | 41% | 64% | 29% | 28% | 18 |
+| **May-22** | 1,172 | 63% | 32% | 15% | 78% | 87% | 81% | 68% | 23 |
+| **Nov-22** | 912 | 67% | 49% | 26% | 80% | 87% | 92% | 88% | 75 |
+| **Oct-23** | 1,028 | 46% | 45% | 5% | 54% | 74% | 78% | 24% | 41 |
+| **Apr-25** | 1,094 | 67% | 77% | 35% | 69% | 86% | 84% | 67% | 45 |
+| **23-Mar-26** | **1,591** | **19%** | **12%** | **3%** | **50%** | **74%** | **71%** | **60%** | **23** |
+| 27-Mar-26 | 1,673 | 6% | 1% | 2% | 36% | 52% | 57% | 49% | 20 |
 
-### Current Breadth Detail
+### Note on BB<Lower: It's a Flash Signal
+
+BB<Lower spikes on crash days and resets within 1-2 days. The COVID crash demonstrates this clearly:
+- **16 Mar 2020**: BB<Lower = 44% (crash day)
+- **31 Mar 2020**: BB<Lower = 9% (15 days later — band expanded, stocks recovered above)
+
+Same pattern in current correction:
+- **23 Mar 2026**: BB<Lower = 12%
+- **27 Mar 2026**: BB<Lower = 1% (4 days later)
+
+The more reliable slow-moving signals are URSI (stays oversold for days), DD>=15% (structural), PE percentile (cycle-adjusted), and PB<1 (deep value).
+
+### 23 March 2026 — Near-Miss Bottom
+
+23 March was the closest this correction came to a major bottom. At VNINDEX 1,591:
+
+**Matched or approached bottom thresholds:**
+- DD>=15% at **74%** — identical to Oct-23 (74%), close to Jul-18 (75%)
+- <EMA200 at **71%** — between Jan-19 (63%) and Oct-23 (78%)
+- PE pctile<=20% at **60%** — approaching May-22 (68%) and Apr-25 (67%)
+- PB<1 at **23** — same as May-22
+
+**Fell short on:**
+- URSI at **19%** — below the 27-67% range at true bottoms
+- BB<Lower at **12%** — below most bottoms (but this is a flash signal)
+
+**Deployment trigger check on 23 March:**
+
+| Trigger | Threshold | 23-Mar | Status |
+|---|---|---|---|
+| PE pctile breadth | 65%+ | 60% | Almost (5pp short) |
+| URSI oversold | 40%+ | 19% | Not met |
+| PB < 1 count | 40+ | 23 | Not met |
+
+0 of 3 triggers fired — but PE breadth was very close. Had the selloff lasted one more day, it likely would have crossed 65%.
+
+### The Bounce Erased the Setup in 4 Days
+
+38 stocks were oversold (URSI<=20) on 23 March. By 27 March, only 13 remained. Biggest recoveries:
+- **CEO** +30.2, **PDR** +27.3, **DIG** +26.9, **CTR** +26.6 (Residential/Industrials snapped back hardest)
+- **VTP** +23.1, **DXS** +23.0, **NAB** +20.9
+
+Still deeply oversold on 27 Mar (barely recovered):
+- **GAS** -0.5, **DGC** +1.5, **BID** +4.4, **BCM** +4.7, **SSI** +4.5 — slowest to bounce, suggesting deeper structural weakness
+
+**Conclusion**: 23 March was comparable to Jan-19 (mild bottom). The right move was to start nibbling on Tier 1 names. The bounce may not hold — if the market sells off again, we'll re-approach those levels.
+
+### Current Breadth Detail (27 March)
 
 **UltRSI <= 20 (oversold): 13 stocks** — FTS (11.4), BMP (13.1), CTS (13.4), HVN (13.6), BCM (14.4), VDS (15.1), VND (15.2), FPT (16.2), CMG (16.3), GAS (17.3), PLX (19.1), BID (19.4), BSI (19.7). Dominated by Brokerage (5) and Energy (2).
 
