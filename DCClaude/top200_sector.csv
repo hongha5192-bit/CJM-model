@@ -1,0 +1,201 @@
+Ticker,L1,L2,McapClass,Freefloat
+ABB,Financials,Banking,Mid-Cap,
+ACB,Financials,Banking,Large-Cap,0.85
+ACG,Materials,Other Materials,Mid-Cap,0.09
+ACV,Industrials,Transportation,Large-Cap,
+ANV,Consumer Staples,Consumer Staples,Small-Cap,0.3
+BAB,Unknown,Unknown,Unknown,
+BAF,Consumer Staples,Consumer Staples,Small-Cap,0.45
+BCM,Property,IP,Large-Cap,0.04
+BHN,Consumer Staples,Consumer Staples,Mid-Cap,0.00866868
+BIC,Financials,Insurance,Small-Cap,0.15
+BID,Financials,Banking,Large-Cap,0.04
+BMP,Industrials,Industrials,Mid-Cap,0.45
+BSI,Financials,Brokerage,Mid-Cap,0.14
+BSR,Energy,Energy,Large-Cap,0.08
+BVB,Unknown,Unknown,Unknown,
+BVH,Financials,Insurance,Large-Cap,0.1
+BWE,Utilities,Utilities,Mid-Cap,0.25
+CC1,Unknown,Unknown,Unknown,
+CEO,Property,Residential,Mid-Cap,
+CHP,Utilities,Utilities,Small-Cap,0.3
+CII,Property,Residential,Mid-Cap,0.95
+CMG,IT,IT,Mid-Cap,0.35
+CTD,Industrials,Industrials,Mid-Cap,0.55
+CTG,Financials,Banking,Large-Cap,0.15
+CTR,Industrials,Industrials,Mid-Cap,0.35
+CTS,Financials,Brokerage,Small-Cap,0.25
+DBC,Consumer Staples,Consumer Staples,Mid-Cap,0.7
+DBD,Health Care,Health Care,Mid-Cap,0.8
+DCL,Health Care,Health Care,Small-Cap,0.45
+DCM,Materials,Chemicals,Mid-Cap,0.25
+DCV,Unknown,Unknown,Unknown,
+DDV,Materials,Chemicals,Small-Cap,
+DGC,Materials,Chemicals,Large-Cap,0.6
+DGW,Consumer Discretionary,Retailing,Mid-Cap,0.55
+DHG,Health Care,Health Care,Mid-Cap,0.06
+DHT,Unknown,Unknown,Unknown,
+DIG,Property,Residential,Mid-Cap,0.9
+DNH,Unknown,Unknown,Unknown,
+DPG,Property,Residential,Small-Cap,0.5
+DPM,Materials,Chemicals,Mid-Cap,0.4
+DSE,Financials,Brokerage,Mid-Cap,0.3
+DTK,Unknown,Unknown,Unknown,
+DVN,Unknown,Unknown,Unknown,
+DXG,Property,Residential,Mid-Cap,0.75
+DXS,Property,Residential,Small-Cap,0.4
+E1VFVN30,Unknown,Unknown,Unknown,
+EIB,Financials,Banking,Large-Cap,0.8
+EVF,Financials,Banking,Mid-Cap,0.95
+F88,Unknown,Unknown,Unknown,
+FOX,IT,IT,Large-Cap,
+FPT,IT,IT,Large-Cap,0.85
+FRT,Consumer Discretionary,Retailing,Mid-Cap,0.55
+FTS,Financials,Brokerage,Mid-Cap,0.4
+FUEVFVND,Unknown,Unknown,Unknown,
+GAS,Energy,Energy,Large-Cap,0.05
+GEE,Industrials,Industrials,Large-Cap,0.13
+GEG,Utilities,Utilities,Mid-Cap,0.25
+GEL,,,Large-Cap,0.2814543
+GEX,Conglomerate,Conglomerate,Mid-Cap,0.7
+GMD,Industrials,Transportation,Mid-Cap,0.9
+GVR,Materials,Other Materials,Large-Cap,0.04
+HAG,Consumer Staples,Consumer Staples,Mid-Cap,0.5
+HAH,Industrials,Transportation,Small-Cap,0.6
+HCM,Financials,Brokerage,Mid-Cap,0.6
+HDB,Financials,Banking,Large-Cap,0.8
+HDG,Conglomerate,Conglomerate,Mid-Cap,0.6
+HHS,Industrials,Industrials,Small-Cap,0.45
+HHV,Industrials,Industrials,Mid-Cap,0.8
+HNA,Utilities,Utilities,Mid-Cap,0.11
+HND,Unknown,Unknown,Unknown,
+HNG,Consumer Staples,Consumer Staples,Mid-Cap,
+HPA,Consumer Staples,Consumer Staples,Mid-Cap,0.14596899
+HPG,Materials,Metals,Large-Cap,0.55
+HSG,Materials,Metals,Mid-Cap,0.7
+HT1,Materials,Other Materials,Mid-Cap,0.25
+HUT,Industrials,Industrials,Mid-Cap,
+HVN,Industrials,Transportation,Mid-Cap,0.08042791
+IDC,Property,IP,Mid-Cap,
+IDP,Unknown,Unknown,Unknown,
+IJC,Property,Residential,Small-Cap,0.5
+IMP,Health Care,Health Care,Mid-Cap,0.6
+KBC,Property,IP,Mid-Cap,0.55
+KDC,Consumer Staples,Consumer Staples,Mid-Cap,0.35
+KDH,Property,Residential,Mid-Cap,0.65
+KLB,Financials,Banking,Mid-Cap,0.95
+KOS,Property,Residential,Mid-Cap,0.4
+KSF,Property,Residential,Large-Cap,
+KSV,Unknown,Unknown,Unknown,
+LGC,Industrials,Industrials,Mid-Cap,0.00244358
+LPB,Financials,Banking,Large-Cap,0.95
+MBB,Financials,Banking,Large-Cap,0.5
+MBS,Financials,Brokerage,Mid-Cap,
+MCH,Consumer Staples,Consumer Staples,Large-Cap,0.3
+MIG,Financials,Insurance,Small-Cap,0.35
+MML,Unknown,Unknown,Unknown,
+MPC,Unknown,Unknown,Unknown,
+MSB,Financials,Banking,Mid-Cap,0.75
+MSH,Consumer Discretionary,Consumer Durables,Small-Cap,0.4
+MSN,Conglomerate,Conglomerate,Large-Cap,0.6
+MSR,Materials,Metals,Mid-Cap,
+MVN,Unknown,Unknown,Unknown,
+MWG,Consumer Discretionary,Retailing,Large-Cap,0.75
+NAB,Financials,Banking,Mid-Cap,0.8
+NKG,Materials,Metals,Mid-Cap,0.75
+NLG,Property,Residential,Mid-Cap,0.8
+NT2,Utilities,Utilities,Mid-Cap,0.3
+NTP,Unknown,Unknown,Unknown,
+NVB,Financials,Banking,Small-Cap,
+NVL,Property,Residential,Large-Cap,0.65
+OCB,Financials,Banking,Large-Cap,0.3
+OIL,Energy,Energy,Mid-Cap,
+ORS,Financials,Brokerage,Small-Cap,0.9
+PAN,Consumer Staples,Consumer Staples,Small-Cap,0.55
+PAP,Unknown,Unknown,Unknown,
+PC1,Utilities,Utilities,Mid-Cap,0.65
+PDN,Industrials,Transportation,Mid-Cap,0.14
+PDR,Property,Residential,Mid-Cap,0.6
+PET,Consumer Discretionary,Retailing,Small-Cap,0.65
+PGB,Unknown,Unknown,Unknown,
+PGV,Utilities,Utilities,Mid-Cap,0.00805101
+PHP,Unknown,Unknown,Unknown,
+PHR,Property,IP,Mid-Cap,0.35
+PLX,Energy,Energy,Large-Cap,0.1
+PNJ,Consumer Discretionary,Retailing,Mid-Cap,0.9
+POW,Utilities,Utilities,Large-Cap,0.25
+PVD,Energy,Energy,Mid-Cap,0.5
+PVI,Financials,Insurance,Mid-Cap,
+PVS,Energy,Energy,Mid-Cap,
+PVT,Industrials,Transportation,Mid-Cap,0.45
+QNS,Consumer Staples,Consumer Staples,Mid-Cap,
+QTP,Unknown,Unknown,Unknown,
+REE,Conglomerate,Conglomerate,Mid-Cap,0.35
+SAB,Consumer Staples,Consumer Staples,Large-Cap,0.11
+SAS,Unknown,Unknown,Unknown,
+SBH,Unknown,Unknown,Unknown,
+SBT,Consumer Staples,Consumer Staples,Mid-Cap,0.55
+SCG,Unknown,Unknown,Unknown,
+SCS,Industrials,Transportation,Mid-Cap,0.45
+SEA,Unknown,Unknown,Unknown,
+SGB,Unknown,Unknown,Unknown,
+SGP,Unknown,Unknown,Unknown,
+SHB,Financials,Banking,Large-Cap,0.75
+SHS,Financials,Brokerage,Mid-Cap,
+SIP,Property,Residential,Mid-Cap,0.4
+SJG,Unknown,Unknown,Unknown,
+SJS,Property,Residential,Mid-Cap,0.65
+SNZ,Unknown,Unknown,Unknown,
+SSB,Financials,Banking,Large-Cap,0.5
+SSH,Unknown,Unknown,Unknown,
+SSI,Financials,Brokerage,Large-Cap,0.7
+STB,Financials,Banking,Large-Cap,0.95
+SZC,Property,IP,Mid-Cap,0.4
+TAL,Property,Residential,Mid-Cap,0.35
+TCB,Financials,Banking,Large-Cap,0.55
+TCH,Property,Residential,Mid-Cap,0.6
+TCX,Financials,Brokerage,Mid-Cap,0.15
+TDM,Utilities,Utilities,Mid-Cap,0.35
+THD,Unknown,Unknown,Unknown,
+TID,Unknown,Unknown,Unknown,
+TLG,Consumer Staples,Consumer Staples,Mid-Cap,0.4
+TMS,Industrials,Transportation,Mid-Cap,0.07
+TOS,Unknown,Unknown,Unknown,
+TPB,Financials,Banking,Large-Cap,0.55
+TVN,Unknown,Unknown,Unknown,
+VAB,Financials,Banking,Mid-Cap,0.9
+VBB,Unknown,Unknown,Unknown,
+VCB,Financials,Banking,Large-Cap,0.11
+VCF,Consumer Staples,Consumer Staples,Mid-Cap,0.01208316
+VCG,Property,Residential,Mid-Cap,0.55
+VCI,Financials,Brokerage,Mid-Cap,0.7
+VCK,Financials,Brokerage,Mid-Cap,0.5
+VCR,Unknown,Unknown,Unknown,
+VCS,Materials,Other Materials,Mid-Cap,
+VDS,Financials,Brokerage,Small-Cap,0.4
+VEA,Consumer Discretionary,Consumer Durables,Large-Cap,
+VEF,Unknown,Unknown,Unknown,
+VGC,Property,IP,Mid-Cap,0.12
+VGI,IT,IT,Large-Cap,
+VGR,Unknown,Unknown,Unknown,
+VGT,Consumer Discretionary,Consumer Durables,Mid-Cap,
+VHC,Consumer Staples,Consumer Staples,Mid-Cap,0.5
+VHM,Property,Residential,Large-Cap,0.3
+VIB,Financials,Banking,Large-Cap,0.65
+VIC,Conglomerate,Conglomerate,Large-Cap,0.35
+VIF,Unknown,Unknown,Unknown,
+VIX,Financials,Brokerage,Mid-Cap,1.0
+VJC,Industrials,Transportation,Large-Cap,0.45
+VND,Financials,Brokerage,Mid-Cap,0.75
+VNM,Consumer Staples,Consumer Staples,Large-Cap,0.4
+VNR,Unknown,Unknown,Unknown,
+VNZ,Unknown,Unknown,Unknown,
+VPB,Financials,Banking,Large-Cap,0.6
+VPI,Property,Residential,Mid-Cap,0.5
+VPL,Consumer Discretionary,Consumer Durables,Large-Cap,0.15
+VPX,Financials,Brokerage,Mid-Cap,0.2
+VRE,Property,Residential,Large-Cap,0.4
+VSC,Industrials,Transportation,Small-Cap,1.0
+VSF,Unknown,Unknown,Unknown,
+VSH,Utilities,Utilities,Mid-Cap,0.2
+VTP,Industrials,Transportation,Mid-Cap,0.4
